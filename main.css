@@ -1,0 +1,42 @@
+#calculator {
+    width: 300px;
+    margin: 0 auto; 
+    text-align: center;
+    border: 5px solid violet;
+    border-radius: 5px;
+    background-color: cadetblue;
+
+}
+button{
+    width:50px;
+    height:50px;
+    font-size: 1.2em;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px pink;
+    border : 1px solid violet;
+    background-color: pink;
+    
+
+}
+#screen{
+width: 90%;
+height: 50px;
+border : 1px solid violet;
+margin :20px auto;
+padding : 5px;
+
+
+}
+
+
+button[value="C"] {
+    background-color: violet;
+    color: white;
+}
+button[value="="] {
+    background-color: blueviolet;
+    color:white;
+    width: 100%;
+    margin: 0 auto;
+}
